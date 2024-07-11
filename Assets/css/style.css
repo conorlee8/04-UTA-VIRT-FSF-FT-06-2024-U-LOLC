@@ -131,6 +131,12 @@ footer a:hover {
     background-color: rgba(34, 34, 34, 0.8);
 }
 
+.dark-mode header h1 {
+    color: black;
+    margin: 0;
+    padding: 75px;
+}
+
 .dark-mode footer {
     background-color: rgba(17, 17, 17, 0.8);
 }
