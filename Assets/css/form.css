@@ -1,0 +1,25 @@
+form {
+    margin: 2rem auto;
+    padding: 2rem;
+    max-width: 600px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label, input, textarea {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.error {
+    color: red;
+    text-align: center;
+}
