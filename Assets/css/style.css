@@ -125,14 +125,15 @@ footer a:hover {
 .dark-mode {
     background-image: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA0L2pvYjE4MjktYmFja2dyb3VuZC1saW5nLTIwZy5qcGc.jpg);
     color: darkgreen;
-}
-
-.dark-mode header {
-    background-color: rgba(34, 34, 34, 0.8);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 2rem;
+    text-align: center;
+    position: relative;
 }
 
 .dark-mode header h1 {
-    color: black;
+    color: white;
     margin: 0;
     padding: 75px;
 }
