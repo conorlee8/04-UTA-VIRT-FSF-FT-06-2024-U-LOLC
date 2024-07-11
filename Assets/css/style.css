@@ -12,7 +12,7 @@ body {
 
 header {
     background-image: url(https://i.imgur.com/QTPq2GC.gif);
-    background-repeat: round;
+    background-repeat: no-repeat;
     background-size: 100%;
     padding: 2rem;
     color: black;
@@ -155,7 +155,7 @@ footer a:hover {
 
 .dark-mode header {
     background-image: url(https://giffiles.alphacoders.com/145/14553.gif);
-    background-repeat: round;
+    background-repeat: no-repeat;
     background-size: 100%;
     padding: 2rem;
     color: white;
