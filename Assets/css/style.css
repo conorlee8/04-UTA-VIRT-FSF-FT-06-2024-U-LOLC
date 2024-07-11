@@ -143,6 +143,16 @@ footer a:hover {
 }
 
 .dark-mode button {
+    position: relative;
+    top: 105px;
+    right: -17px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
     background-color: #203a36;
 }
 
