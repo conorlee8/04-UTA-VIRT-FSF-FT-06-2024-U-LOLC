@@ -182,3 +182,37 @@ footer a:hover {
     border-radius: 4px;
     transition: background-color 0.3s;
 }
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    header {
+        padding: 1rem;
+    }
+
+    header .profile-container {
+        position: static;
+        transform: none;
+        text-align: center;
+    }
+
+    header img.profile-pic {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 1rem;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    header button {
+        margin-top: 0.5rem;
+        padding: 0.4rem 0.8rem;
+        font-size: 0.9rem;
+    }
+
+    footer {
+        position: static;
+        padding: 0.5rem;
+    }
+}
